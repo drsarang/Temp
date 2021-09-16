@@ -142,24 +142,30 @@ main {
 
 
 
-------------------------custom---------
+/*------------------------custom---------*/
 
 
-.captile{
-    margin-top: 80vh !important;
+.captitle{
+    position: relative;
+	font-size: 2vw;
+	line-height: 1;
+	text-align: center;
+	margin: 0;
+	padding: 0 5vw;
+	white-space: nowrap;
+	grid-area: 1 / 1 / 1 / 1;
+}
+
+.captext{
+    text-align: justify;
+	max-width: 90vh;
+	margin: 0 auto;
+    padding: 7rem 5vw 5rem;
+	grid-area: 1 / 1 / 1 / 1;
 }
 
 
-
-
-
-
-
-
-
-
-
-------------------------custom---------
+/*------------------------custom---------*/
 
 
 
@@ -320,10 +326,11 @@ main {
 
 .content__item-title {
 	position: relative;
-	font-size: 2vw;
+	font-size: 3vw;
 	line-height: 1;
 	text-align: right;
 	margin: 0;
+    margin-top: 80vh;
 	padding: 0 5vw;
 	white-space: nowrap;
 	grid-area: 1 / 1 / 1 / 1;
@@ -335,16 +342,16 @@ main {
 }
 
 .content__item-subtitle {
-	text-align: center;
-	font-size: 1.25rem;
+	text-align: right;
+	font-size: 1em !important;
 	font-weight: normal;
 	margin: 3rem auto;
 }
 
 .content__item-text {
-	text-align: justify;
-	max-width: 800px;
-	margin: 0 auto;
+	text-align: right;
+	max-width: 900px;
+	margin: 4em auto;
 }
 
 .content__item-text p {
@@ -353,8 +360,8 @@ main {
 
 .content__close {
 	position: absolute;
-	top: 0.75rem;
-	left: 50%;
+	top: 1.75rem;
+	left: 5%;
 	z-index: 10000;
 	transform: translateX(-50%);
 	background: none;
@@ -439,10 +446,12 @@ main {
 	.content__item-subtitle {
 		font-size: 3vw;
 	}
+/*
 	.content__item-text {
   		column-count: 2;
   		column-gap: 20px;
   	}
+*/
 	.content__item-img {
 		max-width: none;
 		height: calc(100vh - 6rem);
