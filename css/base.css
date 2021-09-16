@@ -459,7 +459,9 @@ main {
 	.content__item-subtitle {
 		max-width: 50%;
 	}
+/*
 	.content__indicator {
 		display: block;
 	}
+*/
 }
